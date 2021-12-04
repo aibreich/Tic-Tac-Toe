@@ -32,6 +32,7 @@ function pickSpot(event) {
     if (tiedGame()) {
       return;
     }
+    // this is what i used directly from the site to get the different players
     currentPlayer = currentPlayer === player1 ? player2 : player1;
   }
   console.log(board);
